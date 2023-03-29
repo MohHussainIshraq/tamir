@@ -99,22 +99,23 @@ body {
 }
 
 .navbar .navbar-brand {
-    position: absolute;
+    position: fixed;
     padding: 0;
-    width: 170px;
-    height: 135px;
+    width: 100px;
+    height: 90px;
     top: 0;
     left: 0;
+    background-color: rgb(2, 134, 95);
+    border-radius: 0px 0px 100px 100px;
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 35px;
-    padding: 10px 0;
+    margin-left: 50px;
+    padding: 5px;
     color: var(--dark);
     font-weight: 600;
-    text-transform: uppercase;
     outline: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -122,7 +123,10 @@ body {
 .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
 }
-
+#navbar{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 20px 20px;
+}
 @media (max-width: 991.98px) {
     .navbar .navbar-brand {
         width: 126px;
@@ -334,6 +338,9 @@ body {
     color: #ffffff;
     font-size: 20px;
     border-color: #09b84c;
+}
+#footer_start{
+    border-radius: 20px 20px 0px 0px;
 }
 #footer_facebook{
     color: blue;
