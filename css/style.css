@@ -129,8 +129,8 @@ body {
 }
 @media (max-width: 991.98px) {
     .navbar .navbar-brand {
-        width: 126px;
-        height: 100px;
+        width: 70px;
+        height: 56px;
     }
 
     .navbar .navbar-nav .nav-link  {
